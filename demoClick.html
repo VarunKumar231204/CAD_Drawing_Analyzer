@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TAILAI - AI CAD Analyzer</title>
+  <link rel="stylesheet" href="style2.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo2.jpg" alt="Tailai Logo" class="logo">
+      <p class="subtitle">AI-Powered AutoCAD Drawing Analyzer</p>
+    </header>
+
+    <main class="content-grid">
+      <!-- Left Column -->
+      <section class="card glass">
+        <h2>📊 Entity Summary</h2>
+        <pre>
+Entity Count:
+– LINE: 1178
+– ARC: 56
+– POLYLINE: 32
+– DIMENSION: 28
+– INSERT: 30
+– CIRCLE: 2
+        </pre>
+        <div class="button-group">
+          <button>🔍 View Entity Details</button>
+          <button>📄 Show Layers</button>
+        </div>
+      </section>
+
+      <!-- Center Column -->
+      <section class="card glass">
+        <h2>📉 Drawing Visualization</h2>
+        <button class="primary-btn">Visualize Drawing</button>
+      </section>
+
+      <!-- Right Column -->
+      <section class="card glass">
+        <h2>🤖 AI-Powered Analysis</h2>
+        <button class="primary-btn">Generate AI Summary</button>
+      </section>
+    </main>
+
+    <!-- Chat Footer -->
+    <footer class="chat-box glass">
+      <input type="text" placeholder="Ask something about your CAD file...">
+      <button>&gt;</button>
+    </footer>
+  </div>
+</body>
+</html>
